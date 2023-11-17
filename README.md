@@ -42,7 +42,12 @@ Make sure to have installed locally:
     yarn
     ```
 
-4. Run servers:
+4. Import DB dump:
+    ```bash
+    mysql -u <user> -p <database_name> < ubiquiti-test.sql
+    ```
+
+5. Run servers:
 
     FE:
     ```bash
